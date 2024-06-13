@@ -24,6 +24,7 @@ header {
     align-items: center;
     height: 90px;
     padding: 0px 35px;
+    z-index: 1;
 
 }
 
@@ -297,6 +298,7 @@ main {
 
 .product:hover img {
     transform: scale(1.1) rotate(-4deg);
+    z-index: -1;
 }
 
 .product:hover .add-btn {
